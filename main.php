@@ -77,7 +77,7 @@
   <body>
     <header align=center>
       <h1>
-        <a href="index1.php">H O M E</a>
+        <a href="main.php">H O M E</a>
       </h1>
     </header>
     <!-- <?
@@ -102,7 +102,7 @@
     <aside id="left">
       <h4 text align = "center">메뉴</h4>
       <ul>
-        <li><a target="iframe3" href="index2.php">게시판</a></li>
+        <li><a target="iframe3" href="schedule.php">게시판</a></li>
         <li><a target="iframe3" href="calendar.php">일정표</a></li>
         <!-- <li><a target="iframe1" href="board.php?board_id=music"></a></li>
         <li><a target="iframe1" href="board.php?board_id=movie">영화</a></li> -->
@@ -110,7 +110,7 @@
     </aside>
     <section id="main">
       <article id="article1">
-        <iframe name="iframe1" src="index2.php" width="800px" height="750px" seamless></iframe>
+        <iframe name="iframe1" src="schedule.php" width="800px" height="750px" seamless></iframe>
         <iframe name="iframe2" src="calendar.php" width="800px" height="750px" seamless></iframe>
       </article>
     </section>
