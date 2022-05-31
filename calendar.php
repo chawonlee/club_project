@@ -2,8 +2,8 @@
 <html lang="ja">
 <meta charset="utf-8">
 <head>
-<title>PHPpractice</title>
-<link rel="stylesheet" href="css/calendar.css">
+<title>일정관리</title>
+<link rel="stylesheet" href="calendar.css">
 <link href="https://fonts.googleapis.com/css?family=News+Cycle" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
