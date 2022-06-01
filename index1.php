@@ -68,7 +68,7 @@
         padding-left: 250px;
         padding-top: 20px;
         left: 250px;top: 200px;bottom: 0;
-        width: 100%;
+        width: 87%;
         height: 500px;
       }
     footer{
@@ -88,7 +88,7 @@
   <body>
     <header align=center>
       <h1>
-        <a href="main.php">H O M E</a>
+        <a href="index1.php">H O M E</a>
       </h1>
     </header>
     <!-- <?
@@ -111,18 +111,18 @@
     }
     ?> -->
     <aside id="left">
-      <h4 text align = "center">메뉴</h4>
+      <h4>카테고리</h4>
       <ul>
-        <li><a target="iframe3" href="schedule.php">게시판</a></li>
-        <li><a target="iframe3" href="calendar.php">일정표</a></li>
+        <li><a target="_blank" href="schedule1.php" >게시판</a></li>
+        <li><a target="_blank" href="calendar.php" >일정표</a></li>
         <!-- <li><a target="iframe1" href="board.php?board_id=music"></a></li>
         <li><a target="iframe1" href="board.php?board_id=movie">영화</a></li> -->
       </ul>
     </aside>
     <section id="main">
       <article id="article1">
-        <iframe name="iframe1" src="schedule.php" width="800px" height="750px" seamless></iframe>
-        <iframe name="iframe2" src="calendar.php" width="800px" height="750px" seamless></iframe>
+        <iframe name="aaa" src="calendar.php" width="800px" height="750px" seamless></iframe>
+        <iframe name="aaa" src="schedule1.php" width="800px" height="750px" seamless></iframe>
       </article>
     </section>
   </body>
