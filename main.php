@@ -12,6 +12,17 @@
 
     }
     body{
+      <?php
+      include('dbcon.php');
+      include('check.php');
+
+      if (is_login()){
+          ;
+      }else
+          header("Location: index.php"); 
+
+      include('head.php');
+      ?>
     }
     header {
       width: 100%;
