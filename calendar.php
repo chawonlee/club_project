@@ -3,7 +3,7 @@
 <meta charset="utf-8">
 <head>
 <title>일정관리</title>
-<link rel="stylesheet" href="calendar.css">
+<link rel="stylesheet" href="/css/calendar.css">
 <link href="https://fonts.googleapis.com/css?family=News+Cycle" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
@@ -131,6 +131,9 @@ try{
           <?php $datetime->modify('-1 month');?>
           <a href="/calendar.php?y=<?=$datetime->format('Y')?>&m=<?= $datetime->format('m')?>">이전달</a>
         </p>
+        <div id="calendar_btn">
+          <a href="/calendar_btn.php"><button>일정추가</button></a>
+        </div>
         <p class="text-right">
           <?php
           $datetime->modify('+2 months');?>
