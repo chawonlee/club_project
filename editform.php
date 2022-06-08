@@ -9,7 +9,7 @@
         if ($_SESSION['user_id'] == 'admin' && $_SESSION['is_admin']==1)
             ;
         else
-            header("Location: main.php");
+            header("Location: index1.php");
     }else
         header("Location: index.php"); 
 
