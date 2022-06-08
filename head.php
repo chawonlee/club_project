@@ -1,6 +1,10 @@
 <html>
 <head>
+<<<<<<< HEAD
   <meta http-equiv="Content-Type" content="text/html; 
+=======
+  <meta http-equiv="Content-Type" content="text/html;
+>>>>>>> 2ed084f7d9104af5743319eafa7dfd7cbfc617cd
     charset=UTF-8" />
 <title>로그인 예제</title>
 <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">

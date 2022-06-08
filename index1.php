@@ -19,7 +19,11 @@
       if (is_login()){
           ;
       }else
+<<<<<<< HEAD
           header("Location: index.php"); 
+=======
+          header("Location: index.php");
+>>>>>>> 2ed084f7d9104af5743319eafa7dfd7cbfc617cd
 
       include('head.php');
       ?>
@@ -31,15 +35,15 @@
     nav {
       width: 100%;
       height: 23px;
-      border-top: 1px solid red;
-      border-bottom: 1px solid red;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
       margin-right: 10%;
-      background-color: black;
+      background-color: white;
       color: white;
     }
     nav a{
-      background-color: black;
-      color: white;
+      background-color: white;
+      color: black;
       text-decoration: none;
     }
 
@@ -88,9 +92,23 @@
   <body>
     <header align=center>
       <h1>
-        <a href="index1.php">H O M E</a>
-      </h1>
+      <a href="index1.php">H O M E</a>
+    </h1>
     </header>
+      <nav class="navbar navbar-default navbar-static-top">
+          <div class="container-fluid">
+              <div class="navbar-header">
+            <ul class="nav navbar-nav">
+                  <?php if (isset($_SESSION['user_id'])) { ?>
+                      <li><a href="">Signed in as <?php echo $_SESSION['user_id']; ?></a></li>
+                      <li><a href="logout.php">Log Out</a></li>
+                  <?php } else { ?>
+                      <li><a href="index.php">Login</a></li>
+                   <?php } ?>
+            </ul>
+              </div>
+          </div>
+      </nav>
     <!-- <?
       if($_SESSION['userid']){
 
@@ -119,6 +137,7 @@
         <li><a target="iframe1" href="board.php?board_id=movie">영화</a></li> -->
       </ul>
     </aside>
+
     <section id="main">
       <article id="article1">
         <iframe name="aaa" src="calendar.php" width="800px" height="750px" seamless></iframe>

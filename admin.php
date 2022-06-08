@@ -5,7 +5,7 @@
    
     if (is_login()){
 
-        if ($_SESSION['user_id'] == 'admin' && $_SESSION['is_admin']==1)
+        if ($_SESSION['user_id'] == 'admin')
             ;
         else
             header("Location: index1.php");
