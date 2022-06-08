@@ -6,9 +6,9 @@ ini_set('display_errors',1);
 include('check.php');
 
 
-$databaseName = 'userdb';
-$databaseUser = 'MySQL 계정이름';
-$databasePassword = '패스워드';
+$databaseName = 'bbs';
+$databaseUser = 'admin';
+$databasePassword = '091100';
 
 
 /*
@@ -16,8 +16,8 @@ $databasePassword = '패스워드';
  */
 $pdoDatabase = new PDO('mysql:host=localhost', $databaseUser, $databasePassword);
 $pdoDatabase->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-$pdoDatabase->exec('DROP DATABASE IF EXISTS userdb;');
-$pdoDatabase->exec('CREATE DATABASE IF NOT EXISTS userdb DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci');
+$pdoDatabase->exec('DROP DATABASE IF EXISTS bbs;');
+$pdoDatabase->exec('CREATE DATABASE IF NOT EXISTS bbs DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci');
 
 
 /*
