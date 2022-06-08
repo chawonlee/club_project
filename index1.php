@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8">
     <title>동호회회원관리 시스템</title>
-    <link rel="stylesheet" type="text/css" href="mystyle.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
     <style>
     *{
       background-color: white;
